@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CD2196F3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="274dp"
+        android:layout_height="404dp"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="#4A148C"
+        android:foregroundTint="#00F43636"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="#FFFF"
+            android:hint="username"
+            android:textColor="#FFFEFE"
+            android:textColorLink="#CD2196F3"
+            android:textSize="16dp" />
+
+        <EditText
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:textColorHint="#FFFF"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="#FFFEFE"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="#FFFEFE"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#28025C"
+            android:onClick="onLogin"
+            android:text="Button"
+            android:textColor="#FCFAFA"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="onRegister"
+            android:text="Create new account"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Azhar Durrani</item>
+        <item>Ali Hyder</item>
+        <item>Fahad</item>
+        <item>Haseeb</item>
+    </string-array>
+</resources>
